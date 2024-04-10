@@ -6,7 +6,7 @@ int main(){
     int st[n],et[n];
     printf("\nenter the startinf time of movies : ");
     for(int x=0;x<n;x++){
-        scanf("%d %d\n",&st[x],&et[x]);
+        scanf("%d %d",&st[x],&et[x]);
     }
     printf("sorting the list of movies : ");
     for(int i=0;i<n;i++){
