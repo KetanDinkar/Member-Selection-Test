@@ -4,8 +4,8 @@ int main(){
     printf("enter the number for movie shown : ");
     scanf("%d",&n);
     int st[n],et[n];
-    printf("\nenter the startinf time of movies : ");
     for(int x=0;x<n;x++){
+        printf("\nstart and end time of movies : ");
         scanf("%d %d",&st[x],&et[x]);
     }
     printf("sorting the list of movies : ");
